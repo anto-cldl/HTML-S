@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML - Labo</title>
+</head>
+
+<style>
+  body {
+    font-family: Helvetica, sans-serif;
+    background: 	#1e2124;
+    color: 	#fff;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #c5c5c5;
+  }
+
+  hr {
+    height: 1px;
+    background-color: #3f4449;
+    border: none;    }
+  footer {
+    background: #1e2124;
+
+    position: fixed;
+    width: 100%;
+    height: 11.5%;
+    bottom: 0;
+  }
+
+  button {
+    padding: 20px 40px;
+    border: unset;
+    border-radius: 15px;
+    color: #e8e8e8;
+    z-index: 1;
+    background: #151515;
+    font-weight: 1000;
+    font-size: 21px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 450ms;
+    position: fixed;
+    top: 35%;
+    left: 42.20%;
+    overflow: hidden;
+  }
+
+  button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
+    transition: all 250ms
+  }
+
+  button:hover {
+    color: #212121;
+  }
+
+  button:hover::before {
+    width: 100%;
+  }
+
+</style>
+
+<body>
+<div style="text-align: center;">
+
+  <button> Laboratoire - 1</button>
+
+</div>
+</body>
+
+
+<footer>
+  <div style="text-align: center;">
+    <hr/>
+    <a href="https://github.com/anto-cldl">
+      <img src="https://img.icons8.com/ios11/512/FFFFFF/github.png" width="60" height="60" alt="Github Logo">
+    </a>
+  </div>
+</footer>
+
+
+</html>
